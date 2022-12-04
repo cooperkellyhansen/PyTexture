@@ -48,6 +48,7 @@ class Orientation:
         '''
         this method does a few checks to ensure
         that the orientation matrix is valid
+        
         '''
 
         self.valid = False
