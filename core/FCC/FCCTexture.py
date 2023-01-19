@@ -29,7 +29,6 @@ class FCCTexture:
         self.orientDict = {} # a dictionary of Orientation objects 
         self.eulerDict = {}
         self.rodDict = {}
-        
         self.neighbors = {}
         self.otherNeighbors = {}
         self.misorient = {}
@@ -38,7 +37,6 @@ class FCCTexture:
         self.attrData = {}
 
         self.has_ortho_symm = ortho
-
         self.fromEulers = False
         self.fromRodrigues = False
 
